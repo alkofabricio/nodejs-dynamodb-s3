@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset=\"UTF-8\">
+        <title><%= Titulo %></title>
+</head>
+
+<body>
+    <form action="/write" method="get">
+        <div class="form-group">
+            <label>Nome:</label>
+            <input type="text" class="form-control" name="nome">
+            <br>
+            <label>Email:</label>
+            <input type="text" class="form-control" name="email">
+            <br>
+            <label>Imagem:</label>
+            <input type="text" class="form-control" name="imagem">
+        </div>
+        <button type="enviar" class="btn btn-primary btn-lg" formaction="/write">Enviar dados</button>
+
+    </form>
+</body>
+</html>

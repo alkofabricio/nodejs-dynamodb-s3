@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset=\"UTF-8\">
+        <title><%= Titulo %></title>
+    </head>
+    
+    <body>
+            <form action="/write" method="get">
+                <div class="form-group">
+                    <label>Consultar pelo email:</label>
+                    <input type="text" class="form-control" name="email">
+                </div>
+                <button type="enviar" class="btn btn-primary btn-lg" formaction="/read">Consultar dados</button>
+        
+            </form>
+        </body>
+</html>
